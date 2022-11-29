@@ -25,6 +25,7 @@ body{
 
 .hero{
     background-color: rgb(0, 102, 255);
+    max-width: 100%;
 }
 
 .nombre{
@@ -168,6 +169,9 @@ body{
     padding-top: 30px;
     background-color: rgb(0, 110, 161);
     padding-bottom: 30px;
+    max-width: 100%;
+    margin: 0 auto;
+
 }
 
 .Titulo  {
@@ -271,6 +275,7 @@ section.skills{
     grid-template-rows: repeat(2,50px);
     gap: 100px;
     justify-content: center;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -313,7 +318,8 @@ section.skills{
 /* formulario*/
 
 .eins-modal-content{
-    background-color: black;
+    background-color: rgb(0, 110, 161);
+    padding: 30px;
 }
 
 form {
