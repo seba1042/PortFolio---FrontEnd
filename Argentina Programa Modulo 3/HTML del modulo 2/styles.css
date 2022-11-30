@@ -43,16 +43,14 @@ body{
     list-style: none;
 }
 
-.newbar a{
+.newbar button{
     font-size: 1.2rem;
     text-decoration: none;
     margin-top: 15px;
-    margin-left: 10px;
     margin-right: 15px;
-    color: white;
 }
 
-.newbar a:hover{
+.newbar button:hover{
     transform: scale(1.02);
 }
 
