@@ -27,7 +27,7 @@ body{
 
 .hero{
     background-color: rgb(0, 102, 255);
-    max-width: 100%;
+    position: relative;
 }
 
 .nombre{
@@ -64,8 +64,14 @@ body{
 
 /* profile */
 
+
 .profile div{
     position: absolute;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
 }
 
 .square {
@@ -75,7 +81,7 @@ body{
     opacity: 0.7;
     z-index: 10;
     top: 110px;
-    right: 600px;
+    /*right: 600px;*/
 }
 
 .circle-trans{
@@ -86,7 +92,7 @@ body{
     z-index: 19;
     opacity: 0.2;
     top: 130px;
-    right: 663px;
+    /*right: 663px;*/
 
 
 
@@ -99,18 +105,18 @@ body{
     border: solid 15px cornflowerblue;  
     z-index: 21;
     top: 160px;
-    right: 693px;
+    /*right: 693px;*/
 }
 
 .img-profile{
-    top: 175px;
-    right: 706px;
+    top: 170px;
+    /*right: 706px;*/
     z-index: 20;
 }
 
 .img-profile img{
     width: 202px;   
-    height: 202px;
+    /*height: 202px;*/
     border-radius: 50%;
 }
 
@@ -120,7 +126,7 @@ body{
     font-size: 2rem;
     color: white;
     top: 415px;
-    right: 630px;
+    /*right: 630px;*/
     z-index: 11;
 }
 
@@ -128,7 +134,7 @@ body{
     font-size: 1.5rem;
     color: white;
     top: 450px;
-    right: 720px;
+    /*right: 720px;*/
     z-index: 11;
 }
 
@@ -136,7 +142,7 @@ body{
     font-size: 1.6rem;
     color: white;
     top: 525px;
-    right: 706px;
+    /*right: 706px;*/
     z-index: 11;
 }
 
@@ -151,7 +157,7 @@ body{
 
 .contact-icon {
     top: 485px;
-    right: 748px;
+    /*right: 748px;*/
     z-index: 11;
 }
 
@@ -245,7 +251,7 @@ body{
 section.skills{
     background-color: rgba(0, 0, 0,.5);
     border-radius: 10px;
-    max-width: 1200px;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -257,12 +263,11 @@ section.skills{
 
 .skill {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(110px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    justify-items: center;
     justify-content: center;
     gap: 250px;
     padding-bottom: 100px;
-    width: 90%;
-
 }
 .skills h2{
     padding-bottom: 70px;
