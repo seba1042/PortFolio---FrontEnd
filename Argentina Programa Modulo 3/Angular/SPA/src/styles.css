@@ -24,6 +24,8 @@ body{
     margin: 0 auto;
 }
 
+
+
 /* Barra de inicio */
 
 .hero{
@@ -196,7 +198,7 @@ body{
 
 
 .text-aboutme {
-    padding-left: 30px;
+    
 
     font-size: 2rem;
     list-style: none;
@@ -205,7 +207,7 @@ body{
 }
 
 .text-aboutme1 {
-    padding-left: 30px;
+    
     padding-right: 30px;
     padding-bottom: 30px;
     list-style: none;
