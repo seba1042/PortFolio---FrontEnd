@@ -243,7 +243,8 @@ body{
 section.skills{
     background-color: rgba(0, 0, 0,.5);
     border-radius: 10px;
-
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .skills h2{
@@ -266,45 +267,22 @@ section.skills{
 }
 
 .skills img{
-    width: 90px;
+
 }
 
 .knowledge {
-    display: grid;
-    grid-template-columns: repeat(3,50px);
-    grid-template-rows: repeat(2,50px);
-    gap: 100px;
-    justify-content: center;
-    max-width: 1200px;
-    margin: 0 auto;
+
 }
 
 .tools{
-    display: grid;
-    grid-template-columns: repeat(2,50px);
-    justify-content: center;
-    gap: 100px;
-    margin: 0 auto;
+
 }
 
 .skill h3{
-    background-color: black;
     text-align: center;
-    border-radius: 5px;
-    padding: 5px 0;
-    font-size: 1.1rem;
-    width: 100px;
-    transform: translate(0px,-100px);
-    transition: transform 0.4s ease,opacity 0.4s ease;
-    opacity: 0;
-
 }
 
-.knowledge>div:hover h3,
-.tools>div:hover h3{
-    opacity: 1;
-    transform: translate(0px,-150px);
-}
+
 
 .footer1{
     background: linear-gradient(rgb(0, 102, 255), rgb(48, 48, 48));
