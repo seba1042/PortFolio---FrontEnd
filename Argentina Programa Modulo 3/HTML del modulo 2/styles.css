@@ -221,6 +221,7 @@ body{
     margin: 0 auto;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, .5);
+    margin-bottom: 30px;
 }
 
 
@@ -267,16 +268,12 @@ section.skills{
     padding-bottom: 70px;
 }
 
-.skills img{
-
+.knowledge ul{
+ list-style: none;
 }
 
-.knowledge {
-
-}
-
-.tools{
-
+.tools ul{
+ list-style: none;
 }
 
 .skill h3{
