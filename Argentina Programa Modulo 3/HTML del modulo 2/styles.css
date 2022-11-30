@@ -105,18 +105,15 @@ body{
     border: solid 15px cornflowerblue;  
     z-index: 21;
     top: 160px;
-    /*right: 693px;*/
 }
 
 .img-profile{
     top: 170px;
-    /*right: 706px;*/
     z-index: 20;
 }
 
 .img-profile img{
     width: 202px;   
-    /*height: 202px;*/
     border-radius: 50%;
 }
 
@@ -126,7 +123,6 @@ body{
     font-size: 2rem;
     color: white;
     top: 415px;
-    /*right: 630px;*/
     z-index: 11;
 }
 
@@ -134,7 +130,6 @@ body{
     font-size: 1.5rem;
     color: white;
     top: 450px;
-    /*right: 720px;*/
     z-index: 11;
 }
 
@@ -142,7 +137,6 @@ body{
     font-size: 1.6rem;
     color: white;
     top: 525px;
-    /*right: 706px;*/
     z-index: 11;
 }
 
@@ -157,13 +151,12 @@ body{
 
 .contact-icon {
     top: 485px;
-    /*right: 748px;*/
     z-index: 11;
 }
 
 .contact-icon img{
     width: 40px;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 .contact-icon img:hover {   
@@ -258,7 +251,7 @@ section.skills{
 .skills h2{
     padding-top: 30px;
     text-align: center;
-
+    padding-bottom: 40px;
 }
 
 .skill {
@@ -270,9 +263,7 @@ section.skills{
     row-gap: 75px;
     padding-bottom: 30px;
 }
-.skills h2{
-    padding-bottom: 40px;
-}
+
 
 .knowledge ul{
  list-style: none;
