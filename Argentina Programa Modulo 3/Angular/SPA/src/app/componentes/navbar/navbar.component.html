@@ -1,1 +1,60 @@
-<p>navbar works!</p>
+<header>
+    <div class="hero">
+  
+      <div class="newbar">
+          <nav>
+              <ul>
+                  <li> 
+                    <app-login></app-login> 
+                    <app-signoff></app-signoff>
+                  </li>
+                  
+              </ul>
+          </nav>
+      </div>
+      <img src="./Img/406197.jpg">
+    </div>
+  
+    <div class= "profile"> 
+      <div class="square"></div>
+      <div class="circle-trans"></div>
+      <div class="circle"></div>
+      <div class="img-profile "><img src="./Img/Sin título.png"></div>
+      <div class="square-text">Sebastian Gabriel Vega C.</div>
+      <div class="square-text2"><span>Electronic Engineer</span></div>
+      <div class="contact-icon">
+        <a href="https://www.linkedin.com/in/sebastian-gabriel-vega-castro-84323b174/"><img src="./Img/pngwing.com (1).png"></a>
+        <a data-bs-toggle="modal" data-bs-target="#CorreoModal"><img src="./Img/dasd.png"></a>
+      </div>
+      <div class="square-text3"><a href="#About-me"><span>Abuout Me | </span>Sobre mi</a></div>
+  
+    </div>
+  
+</header>
+
+  <!-- Modal Correo -->
+  <div class="modal fade" id="CorreoModal" tabindex="-1" aria-labelledby="CorreoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="CorreoModalLabel">Send E-mail</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+        <div class="modal-body">
+          <form class="form" action="https://formspree.io/f/xrgdvbro" method="POST">
+            <label>
+              <h1>Tu correo Electronico:</h1>
+              <input type="email" name="email" class="form-control" placeholder="name@example.com">
+            </label>
+            <label>
+              <h1>Mensaje:</h1>
+              <textarea name="message" class="form-control" rows="3"></textarea>
+            </label>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-primary" role="button">Send</button>
+            </div>
+          </form>
+        </div>
+    </div>
+    </div>
+    </div>

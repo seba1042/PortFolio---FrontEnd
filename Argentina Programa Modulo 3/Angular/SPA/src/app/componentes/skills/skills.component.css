@@ -1,0 +1,39 @@
+
+/*Skills*/
+
+section.skills{
+    background-color: rgba(0, 0, 0,.5);
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.skills h2{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.skill {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    justify-items: center;
+    justify-content: center;
+    column-gap: 300px;
+    row-gap: 75px;
+    padding-bottom: 30px;
+}
+
+
+.knowledge ul{
+ list-style: none;
+}
+
+.tools ul{
+ list-style: none;
+}
+
+.skill h3{
+    text-align: center;
+}

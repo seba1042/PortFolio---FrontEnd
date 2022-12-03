@@ -11,6 +11,9 @@ import { AboutmeComponent } from './componentes/aboutme/aboutme.component';
 import { EducationComponent } from './componentes/education/education.component';
 import { SkillsComponent } from './componentes/skills/skills.component';
 import { IndexComponent } from './componentes/index/index.component';
+import { ExperienceComponent } from './componentes/experience/experience.component';
+import { LoginComponent } from './componentes/login/login.component';
+import { SignoffComponent } from './componentes/signoff/signoff.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { IndexComponent } from './componentes/index/index.component';
     AboutmeComponent,
     EducationComponent,
     SkillsComponent,
-    IndexComponent
+    IndexComponent,
+    ExperienceComponent,
+    LoginComponent,
+    SignoffComponent
   ],
   imports: [
     BrowserModule,

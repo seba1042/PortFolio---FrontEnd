@@ -1,0 +1,12 @@
+
+
+button{
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+button:hover{
+    transform: scale(1.02);
+}

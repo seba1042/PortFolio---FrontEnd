@@ -1,29 +1,24 @@
-/*Acerca de mi*/
+/* Experience*/
 
-
-.square-aboutme{
+.square-exp {
     width: 95%;
     margin: 0 auto;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, .5);
     margin-bottom: 30px;
-    margin-top: 30px;
 }
 
 
-.text-aboutme {
-    
-
+.text-exp {
+    padding-left: 30px;
     font-size: 2rem;
     list-style: none;
     color: rgba(255, 255, 255, 1);
-
 }
 
-.text-aboutme1 {
-    
+.text-exp1 {
+    padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
-    list-style: none;
     color: rgba(255, 255, 255,1);
 }

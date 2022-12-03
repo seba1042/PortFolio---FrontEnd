@@ -1,0 +1,165 @@
+/* Barra de inicio */
+.hero{
+    background-color: rgb(0, 102, 255);
+    position: relative;
+}
+
+.nombre{
+    font-size: 1.5rem;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.newbar ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.newbar button{
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.newbar button:hover{
+    transform: scale(1.02);
+}
+
+.hero img{
+    width: 100%;
+    height: 530px;
+
+}
+
+/* profile */
+
+
+.profile div{
+    position: absolute;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    width: 420px;
+    height: 460px;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 10;
+    top: 110px;
+
+}
+
+.circle-trans{
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    border: solid 30px cornflowerblue;
+    z-index: 19;
+    opacity: 0.2;
+    top: 130px;
+
+
+}
+
+.circle{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: solid 15px cornflowerblue;  
+    z-index: 21;
+    top: 160px;
+}
+
+.img-profile{
+    top: 170px;
+    z-index: 20;
+}
+
+.img-profile img{
+    width: 202px;   
+    border-radius: 50%;
+}
+
+/*text profile*/
+
+.square-text{
+    font-size: 2rem;
+    color: white;
+    top: 415px;
+    z-index: 11;
+}
+
+.square-text2  {
+    font-size: 1.5rem;
+    color: white;
+    top: 450px;
+    z-index: 11;
+}
+
+.square-text3  {
+    font-size: 1.6rem;
+    color: white;
+    top: 525px;
+    z-index: 11;
+}
+
+.square-text3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.square-text3 :hover {
+    border-bottom: rgb(108, 130, 158)solid;
+}
+
+.contact-icon {
+    top: 485px;
+    z-index: 11;
+}
+
+.contact-icon img{
+    width: 40px;
+    margin: 0 15px;
+}
+
+.contact-icon img:hover {   
+    transform: scale(1.2);
+}
+
+
+/* formulario*/
+
+.eins-modal-content{
+    background-color: rgb(0, 110, 161);
+    padding: 30px;
+}
+
+.eins-modal h2{
+    text-align: center;
+    padding-top: 50px;
+}
+
+form {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+label{
+ padding: 5px;
+}
+
+/*Modals*/
+
+.modal-dialog h1{
+    font-size: 18px;
+    color: black;
+}

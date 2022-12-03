@@ -1,0 +1,22 @@
+.square-edu{
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .5);
+    margin-bottom: 30px;
+}
+
+
+.text-edu {
+    padding-left: 30px;
+    font-size: 2rem;
+    list-style: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.text-edu1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255,1);
+}
