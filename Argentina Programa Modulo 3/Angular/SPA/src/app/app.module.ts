@@ -14,6 +14,7 @@ import { IndexComponent } from './componentes/index/index.component';
 import { ExperienceComponent } from './componentes/experience/experience.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { SignoffComponent } from './componentes/signoff/signoff.component';
+import { EditComponent } from './componentes/edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SignoffComponent } from './componentes/signoff/signoff.component';
     IndexComponent,
     ExperienceComponent,
     LoginComponent,
-    SignoffComponent
+    SignoffComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,

@@ -13,7 +13,8 @@
 
 .text-aboutme {
     
-
+    padding-top: 20px;
+    padding-left: 30px;
     font-size: 2rem;
     list-style: none;
     color: rgba(255, 255, 255, 1);
@@ -21,7 +22,7 @@
 }
 
 .text-aboutme1 {
-    
+
     padding-right: 30px;
     padding-bottom: 30px;
     list-style: none;
