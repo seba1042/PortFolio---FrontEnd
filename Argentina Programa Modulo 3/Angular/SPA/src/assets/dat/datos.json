@@ -1,0 +1,97 @@
+{
+
+    "profile": [
+        {
+            "nombre":"Sebastian Gabriel Vega Castro",
+            "titulo": "Electronic Engineer",
+            "imagen": "../assets/Img/Sin título.png"
+        }
+        ],
+
+    "aboutme": [
+    {
+        "texto":"I have knowledge in Programing and Maintenance electronic. Besides this, I consider myself someone sociable, communicative with my partner. This skills could help to your company. I’m looking for a job, because, I search pay my studies and continue expanding my knowledge in this two area already mentioned."
+    }
+    ],
+
+
+    "educations": [
+        {
+            "titulo": "Electronic Engineer",
+            "institucion": "UTN - FRT 1"
+        },
+        {
+            "titulo": "Full Stack jr.",
+            "institucion": "Yo Programo 2"
+        },
+        {
+            "titulo": "Programing Python POO",
+            "institucion": "Udemy"
+        },
+        {
+            "titulo": "Automatization in Micro PLC LOGO! Soft Comfort",
+            "institucion": "UTN - FRT"
+        },
+        {
+            "titulo": "Graphic Desing",
+            "institucion": "Educap"
+        },
+        {
+            "titulo": "Se Programar",
+            "institucion": "Argentina Programa"
+        },
+        {
+            "titulo": "Basic English Course",
+            "institucion": "UTN - FRT"
+        }
+    ],
+
+    "experiences": [
+        {
+            "puesto": "Agente - Techinal support Cablevision Fibertel",
+            "empresa": "Teleperformance"
+        },
+        {
+            "puesto": "Instrumentation",
+            "empresa": "Croanda S.A."
+        },
+        {
+            "puesto": "Trade Clerk",
+            "empresa": " "
+        }
+    ],
+    "conocimientos": [
+        {
+            "conocimiento2": "HTML5"
+        },
+        {
+            "conocimiento2": "CSS"
+        },
+        {
+            "conocimiento2": "JavaScript"
+        },
+        {
+            "conocimiento2": "Phyton"
+        },
+        {
+            "conocimiento2": "C++"
+        },        
+        {
+            "conocimiento2": "ladder lenguage"
+        },
+        {
+            "conocimiento2": "Photoshop"
+        },
+        {
+            "conocimiento2": "PC Thecnical Maintenance"
+        }
+    ],
+    "herramientas":[
+        {
+            "herramienta": "Visual Studio Code"
+        },
+        {
+            "herramienta": "Pycharm"
+        }
+    ]
+}

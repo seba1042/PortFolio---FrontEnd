@@ -15,14 +15,14 @@
       <img src="assets/Img/406197.jpg">
     </div>
   
-    <div class= "profile"> 
+    <div class= "profile" *ngFor="let prof of profile1"> 
       <div class="square"><div class="edit"><app-edit></app-edit></div></div>
       <div class="circle-trans"></div>
       <div class="circle"></div>
       
-      <div class="img-profile "><img src="assets/Img/Sin título.png"></div>
-      <div class="square-text">Sebastian Gabriel Vega C.</div>
-      <div class="square-text2"><span>Electronic Engineer</span></div>
+      <div class="img-profile "><img [src]="prof.imagen"></div>
+      <div class="square-text">{{prof.nombre}}</div>
+      <div class="square-text2"><span>{{prof.titulo}}</span></div>
       <div class="contact-icon">
         <a href="https://www.linkedin.com/in/sebastian-gabriel-vega-castro-84323b174/"><img src="assets/Img/pngwing.com (1).png"></a>
         <a data-bs-toggle="modal" data-bs-target="#CorreoModal"><img src="assets/Img/dasd.png"></a>
