@@ -18,3 +18,13 @@ button:hover{
     font-size: 18px;
     color: black;
 }
+
+
+.error{
+    color: red;
+}
+
+border-danger{
+    color: red;
+}
+
