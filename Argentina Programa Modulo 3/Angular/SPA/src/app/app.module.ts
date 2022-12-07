@@ -19,6 +19,7 @@ import { EditComponent } from './componentes/edit/edit.component';
 import { AddComponent } from './componentes/add/add.component';
 import { DeleteComponent } from './componentes/delete/delete.component';
 import { ModalesComponent } from './componentes/modales/modales.component';
+import { EditProfileComponent } from './componentes/edit-profile/edit-profile.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ModalesComponent } from './componentes/modales/modales.component';
     EditComponent,
     AddComponent,
     DeleteComponent,
-    ModalesComponent
+    ModalesComponent,
+    EditProfileComponent
   ],
   imports: [
     BrowserModule,
