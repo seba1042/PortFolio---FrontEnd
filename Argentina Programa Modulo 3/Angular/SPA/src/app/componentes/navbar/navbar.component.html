@@ -1,20 +1,18 @@
 <header>
     <div class="hero">
-      <app-modales></app-modales>
       <div class="newbar">
           <nav>
-              <ul>
                   <li> 
-                    <app-login></app-login> 
-                    <app-signoff></app-signoff>
+                    <div class="argentinaprograma"><a href="https://argentinaprograma.inti.gob.ar"><img src="assets/Img/Argentina Programa.png"></a></div>
+                    <div><app-login></app-login> </div>
+                    <div><app-signoff></app-signoff></div>
                   </li>
-                  
-              </ul>
+
           </nav>
       </div>
-      <img src="assets/Img/406197.jpg">
+    
     </div>
-  
+    <div class="hero1"><img src="assets/Img/Fondo.jpg"></div>
     <div class= "profile" *ngFor="let prof of profile1"> 
       <div class="square"><div class="edit"><app-edit-profile></app-edit-profile></div></div>
       <div class="circle-trans"></div>
@@ -24,13 +22,15 @@
       <div class="square-text">{{prof.nombre}}</div>
       <div class="square-text2"><span>{{prof.titulo}}</span></div>
       <div class="contact-icon">
-        <a href="https://www.linkedin.com/in/sebastian-gabriel-vega-castro-84323b174/"><img src="assets/Img/pngwing.com (1).png"></a>
-        <a data-bs-toggle="modal" data-bs-target="#CorreoModal"><img src="assets/Img/dasd.png"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/sebastian-gabriel-vega-castro-84323b174/"><img src="assets/Img/Linkedin.png"></a>
+        <a data-bs-toggle="modal" data-bs-target="#CorreoModal"><img src="assets/Img/Correo.png"></a>
+        <a target="_blank" href="https://github.com/seba1042/"><img src="assets/Img/Github2.png"></a>
       </div>
       <div class="square-text3"><a href="#About-me"><span>Abuout Me | </span>Sobre mi</a></div>
-  
     </div>
-  
+
+
+    <app-modales></app-modales>
 </header>
 
 
