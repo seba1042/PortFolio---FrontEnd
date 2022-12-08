@@ -16,7 +16,7 @@ section.skills{
 }
 
 .skill {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit,minmax(300px,auto));
     justify-items: center;
     justify-content: center;
@@ -30,10 +30,40 @@ section.skills{
  list-style: none;
 }
 
+.knowledge1 {
+    display: flex;
+}
+
+.know{
+    flex: auto;
+}
+
+.progress{
+    width: 100%;
+}
+
+::-webkit-progress-value {
+    background-color: rgb(51, 160, 233);}
+
+::-webkit-progress-bar {
+    background-color: rgb(255, 255, 255);
+ }
+
+
 .tools ul{
  list-style: none;
 }
 
-.skill h3{
-    text-align: center;
+.tools1 {
+    display: flex;
 }
+
+.tool{
+    flex: auto;
+}
+
+.skill h3{
+    text-align: start;
+}
+
+

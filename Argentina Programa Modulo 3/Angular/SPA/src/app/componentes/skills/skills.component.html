@@ -1,10 +1,24 @@
 <section class="skills">
   <div class="skill">   
     <div class="knowledge-part">
-      <h2><span>knowledge|</span>Conocimientos  <app-add></app-add></h2>
+      <h2><span>Knowledge|</span>Conocimientos  <app-add></app-add></h2>
       <div class="knowledge">
         <ul *ngFor="let con of conocimiento1">
-          <li><h3>{{con.conocimiento}} <app-delete></app-delete></h3></li>
+          <li>
+
+
+            <div>
+              <div class="knowledge1">
+                <div class="know"><h3>{{con.conocimiento}} {{con.porcentaje}}%</h3></div>
+                <div><h3><app-delete></app-delete></h3></div>
+              </div>
+              <progress class="progress" max="100" value={{con.porcentaje}}>
+              
+              </progress>
+            </div>
+
+            
+          </li>
         </ul>
       </div>
     </div>
@@ -13,9 +27,37 @@
       <h2><span>Dev.Tools|</span>Herramientas  <app-add></app-add></h2>
       <div class="tools">
         <ul *ngFor="let her of herramienta1">
-          <li><h3> {{her.herramienta}} <app-delete></app-delete></h3></li>
+          <li>
+            
+            <div>
+              <div class="tools1">
+                <div class="tool"><h3>{{her.herramienta}} {{her.porcentaje}}%</h3></div>
+                <div><h3><app-delete></app-delete></h3></div>
+              </div>
+              <progress class="progress" max="100" value={{her.porcentaje}}>
+              
+              </progress>
+            </div>
+          
+          
+          </li>
         </ul>
       </div>
     </div>
   </div>
 </section>
+
+<!--
+
+            <div>
+              <div class="tools1">
+                <div class="tool"><h3>{{her.herramienta}} {{her.porcentaje}}%</h3></div>
+                <div><h3><app-delete></app-delete></h3></div>
+              </div>
+              <progress class="progress" max="100" value={{her.porcentaje}}>
+              
+              </progress>
+            </div>
+
+
+-->
