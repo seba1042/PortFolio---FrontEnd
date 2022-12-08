@@ -1,6 +1,48 @@
 <div class="square-exp">
     <h2 class="text-exp">Experience | <app-add></app-add> </h2>
     <ul class="text-exp1" *ngFor="let exp of experience">
-        <li>{{exp.puesto}} ({{exp.empresa}}). <app-delete></app-delete></li>
+        <li>
+            <div class="experience-flex">
+                <div class="exp-img">
+                    <img class="exp-img1" src={{exp.imagen}}>
+                </div>
+                <div class="exp-des">
+                    <h3>Empresa: {{exp.empresa}}</h3>  
+                    <h4>Puesto: {{exp.puesto}}</h4>
+                    <h6>Periodo: {{exp.periodo}}</h6>
+                </div>
+                <div class="exp-des1">
+                    <h6>Descripcion: {{exp.descripcion}} </h6>
+                </div>  
+            </div>
+            <div class="edicion">
+                <app-delete></app-delete>
+            </div>
+        </li>
     </ul>
 </div>
+
+
+<!--
+
+            <div class="experience-flex">
+                <div class="exp-img">
+                    <img class="exp-img1" src="">
+                </div>
+                <div class="exp-des">
+                    <h3>Empresa: {{exp.empresa}}</h3>  
+                    <h4>Puesto: {{exp.puesto}}</h4>
+                    <h6>Periodo: </h6>
+                </div>
+                <div class="exp-des1">
+                    <h6>Descripcion: </h6>
+                </div>  
+            </div>
+            <div class="edicion">
+                <app-delete></app-delete>
+            </div>
+
+
+
+
+-->
