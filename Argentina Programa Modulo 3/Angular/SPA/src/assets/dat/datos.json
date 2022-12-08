@@ -126,6 +126,30 @@
         {
             "herramienta": "Pycharm",
             "porcentaje":"60"
+        },
+        {
+            "herramienta": "Analytical ability",
+            "porcentaje":"80"
+        },
+        {
+            "herramienta": "Proactive",
+            "porcentaje":"90"
+        },
+        {
+            "herramienta": "Sociable",
+            "porcentaje":"70"
+        },
+        {
+            "herramienta": "Creative",
+            "porcentaje":"65"
+        },
+        {
+            "herramienta": "English B1",
+            "porcentaje":"70"
+        },
+        {
+            "herramienta": "Sociable",
+            "porcentaje":"70"
         }
     ]
 }

@@ -6,28 +6,31 @@ section.skills{
     border-radius: 10px;
     width: 70%;
     margin: 0 auto;
-    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 50px;
 }
 
-.skills h2{
-    padding-top: 30px;
+.skills h3{
     text-align: center;
+    padding-left: 50px;
     padding-bottom: 40px;
 }
 
 .skill {
     display: flex;
-    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
-    justify-items: center;
     justify-content: center;
-    column-gap: 300px;
-    row-gap: 75px;
-    padding-bottom: 30px;
 }
 
+.knowledge-part{
+    
+    flex: auto;
+}
 
 .knowledge ul{
  list-style: none;
+ 
 }
 
 .knowledge1 {
@@ -38,16 +41,11 @@ section.skills{
     flex: auto;
 }
 
-.progress{
-    width: 100%;
+
+ .tools-part{
+    
+    flex: auto;
 }
-
-::-webkit-progress-value {
-    background-color: rgb(51, 160, 233);}
-
-::-webkit-progress-bar {
-    background-color: rgb(255, 255, 255);
- }
 
 
 .tools ul{
@@ -62,8 +60,15 @@ section.skills{
     flex: auto;
 }
 
-.skill h3{
-    text-align: start;
+/*Barra de progreso*/
+
+.progress{
+    width: 100%;
 }
 
+::-webkit-progress-value {
+    background-color: rgb(51, 160, 233);}
 
+::-webkit-progress-bar {
+    background-color: rgb(255, 255, 255);
+ }
