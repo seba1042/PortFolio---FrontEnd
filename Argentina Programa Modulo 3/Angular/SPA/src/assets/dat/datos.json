@@ -18,31 +18,46 @@
     "educations": [
         {
             "titulo": "Electronic Engineer",
-            "institucion": "UTN - FRT"
+            "institucion": "Universidad Tecnologica Nacional - Facultad Regional de Tucuman",
+            "periodo": "2016-Acutal",
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/UTN_logo.jpg/240px-UTN_logo.jpg"
+
         },
         {
             "titulo": "Full Stack jr.",
-            "institucion": "Yo Programo"
+            "institucion": "Yo Programo",
+            "periodo": "2022-2023",
+            "imagen": "https://yt3.ggpht.com/4HM_-p_YCTbyHFdDKLOd2DPr8QvHePQcq9v4404vHP4ojUD5H9h0Cj8MYY0EAgFWxKocR2bGgQc=s900-c-k-c0x00ffffff-no-rj"
         },
         {
             "titulo": "Programing Python POO",
-            "institucion": "Udemy"
+            "institucion": "Udemy",
+            "periodo": "2022-2022",
+            "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAB3CAMAAAAO5y+4AAAAn1BMVEUcHR////+kNfBycnIOEBMAAAAHCQ0XGBt6enooKSoxMTFsbGwYGhzs7OwaHRsTHA+qN/lSJXYiHigYHRgAGwAKGwCeNOeVMtmFL8L29vbd3d1cJ4SALrpFI2GYM95MJGygoKAlHi96LbFmKZQ9IlYqHzZsKpyLMMowIEMQHAk4IU1yK6VJI2ZfX2CRkZHKyspTU1RCQkOurq6+vr6FhYWQQ+DuAAADDUlEQVRoge3Z63KqMBAA4CgEDwqCQlToqWLpzda7ff9nO4lnbEOIsqFBx5nsXzL5dLPZREToFmFbN2GNa1zjGveqbp8MyQ1cMn8a5cHiym4QPIzCdjiekeiKbp88j8M2i3DyUifZ9VwyfPqvMridR8FV3ICwFP9EOF7GqslWd/vxKcWcPJkrJlvZJf2/osrg8DVWSraiG8R5KGGZPJqpJFvJjeLHqVw9ym/vcb8Jl7zLUszB7VdwA4O7i34+usgyeTogsGWGuhGZlapYnuwPAkk20CUvE4h6TPZnBOjZMDfI2zL2XGUPqnMNcoOBVAg/P+RZCIeVqa7vsm0TxUvZxmrQPbWJgEgaSWMuLZ7gtIZkXkp2Uy5NMdcfIrIUtlgzLmsOxU4stpQmXNYMy/uTttBm3XAi70e0sn+Srd29dNjRyj41Es0uTfHFrv9d2Xrd6pvj6Qqk0w2nj4D7RBQ/0LTodPMF7GBd0CuuPvcNfjmnV/rpXI+LhoHK/RiSmHv8HWpc4xr3LlyPizNDOtVD1F2XizOzdquHqLq2lfjfkXRls9orfkg1DHKdPy0u5G6PH+J2jGtc4xrXuMY1rnGNa1zjGte4xtXlyiYtDmnEXdmSITgruJp+d1v8pGssG7LhhyA9rr3lJ91IXK/rcyMS2Ser4XqId5NdefVwYSV8TS7CCT/tvjSt56T8gIM2tzBta+uIz9eF55k2t1CtLR8VSxoXNi/9XLKKr+MWC4vCO+4becXFBZUV9H0d9otT082EbbZZPBujg/CsvP713UyYu+Wvtwhjx+3tE/HRtrJbwd+LotLslE5TX8xDS76/67pixV4KQFXBXU/YSucDsroK773tnSTTkkgdwNtnlfft2KpG6ZpXH4GKLhK3qZyFLK6ai/CqKtUbG8iq/a/huJeLK8OwJKu6qIO/zn/ldIdBJVXDpbl2M0mrYCm2MDTHdVy6kV1rI9BJmm2xeDZqdtkhj9Hqa79J2V8naXrIrB1W+q41XXQ8hbiwwdX0W/f3YVzjGveuXfsWgXvIukX0sn+cKkbE3egVVgAAAABJRU5ErkJggg=="
         },
         {
             "titulo": "Automatization in Micro PLC LOGO! Soft Comfort",
-            "institucion": "UTN - FRT"
+            "institucion": "Universidad Tecnologica Nacional - Facultad Regional de Tucuman",
+            "periodo": "2022-2022",
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/UTN_logo.jpg/240px-UTN_logo.jpg"
         },
         {
             "titulo": "Graphic Desing",
-            "institucion": "Educap"
+            "institucion": "Educap",
+            "periodo": "2015-2016",
+            "imagen": "https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.18169-9/10734107_870136349677478_687611323076624150_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=zZKIjT0zhwAAX_TXNKL&_nc_ht=scontent.ftuc1-1.fna&oh=00_AfA_OgGaM4bA8Aif9KBA7lHcnR-CSHhj5NYyeca5Ubxa3w&oe=63B89A36"
         },
         {
             "titulo": "Se Programar",
-            "institucion": "Argentina Programa"
+            "institucion": "Argentina Programa",
+            "periodo": "2022-2023",
+            "imagen": "https://yt3.ggpht.com/4HM_-p_YCTbyHFdDKLOd2DPr8QvHePQcq9v4404vHP4ojUD5H9h0Cj8MYY0EAgFWxKocR2bGgQc=s900-c-k-c0x00ffffff-no-rj"
         },
         {
             "titulo": "Basic English Course",
-            "institucion": "UTN - FRT"
+            "institucion": "Universidad Tecnologica Nacional - Facultad Regional de Tucuman",
+            "periodo": "2021-2021",
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/UTN_logo.jpg/240px-UTN_logo.jpg"
         }
     ],
 
