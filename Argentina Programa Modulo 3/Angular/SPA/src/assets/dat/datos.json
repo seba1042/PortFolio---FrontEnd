@@ -151,5 +151,14 @@
             "herramienta": "Sociable",
             "porcentaje":"70"
         }
+    ],
+    "proyectos":[
+        {
+            "nombre": "Protafolio Web",
+            "periodo":"2022-2023",
+            "descripcion": "Diseño de FrontEnd y Backend de protafolio Web para titulacion de Fullstack Jr en Argentina programa",
+            "imagen":""
+        }
+
     ]
 }

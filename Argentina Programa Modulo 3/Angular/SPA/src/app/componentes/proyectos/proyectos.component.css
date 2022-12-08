@@ -1,0 +1,63 @@
+/* Experience*/
+
+.square-exp {
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .5);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+
+.text-exp {
+    display: flex;
+    padding-right: 10px;
+}
+
+.text-exp1 {
+    flex: auto;
+    padding-bottom: 10px;
+}
+
+.text-exp2 {
+    list-style: none;
+    padding-right: 30px;
+}
+
+.experience-flex{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 10px;
+}
+
+.exp-img{
+    border-right: white 5px solid;
+    padding-right: 100px;
+}
+
+.exp-img1{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.exp-des{
+    width: 50%;
+    padding-left: 50px;
+}
+
+.exp-des1{
+    background-color: rgb(132, 71, 37, 1);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.edicion{
+    background-color: rgb(123, 165, 46, 1);
+    text-align: end;
+    padding-right: 50px;
+    border-radius: 10px;
+}

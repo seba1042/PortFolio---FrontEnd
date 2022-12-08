@@ -1,0 +1,25 @@
+<div class="square-exp">
+    <div class="text-exp">
+        <div class="text-exp1"><h2><span>Projects | </span> Proyectos</h2></div>
+        <div><h2><app-add></app-add></h2></div>
+    </div>
+    <ul class="text-exp2" *ngFor="let pro of project">
+        <li>
+            <div class="experience-flex">
+                <div class="exp-img">
+                    <img class="exp-img1" src={{pro.imagen}}>
+                </div>
+                <div class="exp-des">
+                    <h3>Empresa: {{pro.nombre}}</h3>  
+                    <h6>Periodo: {{pro.periodo}}</h6>
+                </div>
+                <div class="exp-des1">
+                    <h6>Descripcion: {{pro.descripcion}} </h6>
+                </div>  
+            </div>
+            <div class="edicion">
+                <app-delete></app-delete>
+            </div>
+        </li>
+    </ul>
+</div>

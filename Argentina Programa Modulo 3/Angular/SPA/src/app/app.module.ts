@@ -20,6 +20,7 @@ import { AddComponent } from './componentes/add/add.component';
 import { DeleteComponent } from './componentes/delete/delete.component';
 import { ModalesComponent } from './componentes/modales/modales.component';
 import { EditProfileComponent } from './componentes/edit-profile/edit-profile.component';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { EditProfileComponent } from './componentes/edit-profile/edit-profile.co
     AddComponent,
     DeleteComponent,
     ModalesComponent,
-    EditProfileComponent
+    EditProfileComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
