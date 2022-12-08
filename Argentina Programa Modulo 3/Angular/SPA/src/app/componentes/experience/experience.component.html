@@ -1,6 +1,9 @@
 <div class="square-exp">
-    <h2 class="text-exp">Experience | <app-add></app-add> </h2>
-    <ul class="text-exp1" *ngFor="let exp of experience">
+    <div class="text-exp">
+        <div class="text-exp1"><h2><span>Experience | </span> Experiencia</h2></div>
+        <div><h2><app-add></app-add></h2></div>
+    </div>
+    <ul class="text-exp2" *ngFor="let exp of experience">
         <li>
             <div class="experience-flex">
                 <div class="exp-img">

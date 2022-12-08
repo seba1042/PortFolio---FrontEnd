@@ -1,6 +1,9 @@
 <div class="square-aboutme" id="About-me">
-    <h2 class="text-aboutme">Abuout Me | <app-edit></app-edit></h2>
-    <ul class="text-aboutme1" *ngFor="let about of aboutme1">
+    <div class="text-aboutme">
+        <div class="text-aboutme1"><h2><span>Abuout Me | </span>Sobre Mi </h2></div>
+        <div><h2><app-edit></app-edit></h2></div>
+    </div>
+    <ul class="text-aboutme2" *ngFor="let about of aboutme1">
         <li>{{about.texto}}</li>
     </ul>
 </div>

@@ -6,25 +6,21 @@
     margin: 0 auto;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, .5);
-    margin-bottom: 30px;
     margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
 }
 
 
 .text-aboutme {
-    
-    padding-top: 20px;
-    padding-left: 30px;
-    font-size: 2rem;
-    list-style: none;
-    color: rgba(255, 255, 255, 1);
-
+    display: flex;
+}
+.text-aboutme1 {
+    flex: auto;
+    padding-top: 5px;
 }
 
-.text-aboutme1 {
-
-    padding-right: 30px;
-    padding-bottom: 30px;
+.text-aboutme2 {
     list-style: none;
-    color: rgba(255, 255, 255,1);
+    padding-right: 20px;
 }

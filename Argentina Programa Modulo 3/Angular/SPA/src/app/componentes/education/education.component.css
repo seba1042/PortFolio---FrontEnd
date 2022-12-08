@@ -4,23 +4,23 @@
     border-radius: 10px;
     background-color: rgba(0, 0, 0, .5);
     margin-bottom: 30px;
-    padding-bottom: 20px;
-    padding-right: 30px;
+    padding: 20px;
     
 }
 
 
 .text-edu {
-    padding-top: 20px;
-    font-size: 2rem;
-    color: rgba(255, 255, 255, 1);
-    padding-left: 30px;
-    margin-bottom: 20px;
+    display: flex;
+    padding-right: 10px;
+}
+.text-edu1 {
+    flex: auto;
+    padding-bottom: 10px;
 }
 
-.text-edu1 {
-    color: rgba(255, 255, 255,1);
+.text-edu2 {
     list-style: none;
+    padding-right: 30px;
 }
 
 .education-flex{
