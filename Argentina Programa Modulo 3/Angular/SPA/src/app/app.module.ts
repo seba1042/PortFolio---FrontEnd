@@ -21,6 +21,10 @@ import { DeleteComponent } from './componentes/delete/delete.component';
 import { ModalesComponent } from './componentes/modales/modales.component';
 import { EditProfileComponent } from './componentes/edit-profile/edit-profile.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { AddExperineceComponent } from './componentes/add-experinece/add-experinece.component';
+import { AddHardskillsComponent } from './componentes/add-hardskills/add-hardskills.component';
+import { AddSoftskillsComponent } from './componentes/add-softskills/add-softskills.component';
+import { AddProjectsComponent } from './componentes/add-projects/add-projects.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +44,11 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
     DeleteComponent,
     ModalesComponent,
     EditProfileComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    AddExperineceComponent,
+    AddHardskillsComponent,
+    AddSoftskillsComponent,
+    AddProjectsComponent
   ],
   imports: [
     BrowserModule,
