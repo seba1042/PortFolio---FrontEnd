@@ -25,6 +25,11 @@ import { AddExperineceComponent } from './componentes/add-experinece/add-experin
 import { AddHardskillsComponent } from './componentes/add-hardskills/add-hardskills.component';
 import { AddSoftskillsComponent } from './componentes/add-softskills/add-softskills.component';
 import { AddProjectsComponent } from './componentes/add-projects/add-projects.component';
+import { EditEducationComponent } from './componentes/edit-education/edit-education.component';
+import { EditExperienceComponent } from './componentes/edit-experience/edit-experience.component';
+import { EditHardskillsComponent } from './componentes/edit-hardskills/edit-hardskills.component';
+import { EditSoftskillsComponent } from './componentes/edit-softskills/edit-softskills.component';
+import { EditProjectsComponent } from './componentes/edit-projects/edit-projects.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +53,12 @@ import { AddProjectsComponent } from './componentes/add-projects/add-projects.co
     AddExperineceComponent,
     AddHardskillsComponent,
     AddSoftskillsComponent,
-    AddProjectsComponent
+    AddProjectsComponent,
+    EditEducationComponent,
+    EditExperienceComponent,
+    EditHardskillsComponent,
+    EditSoftskillsComponent,
+    EditProjectsComponent
   ],
   imports: [
     BrowserModule,
